@@ -256,7 +256,7 @@ video {
 }
 .overlay h4 {
   color: #000;
-  font-size: 25px;
+  font-size: 23px;
   text-transform: uppercase;
   white-space: nowrap;
   margin-bottom: 20px;
@@ -264,7 +264,7 @@ video {
 }
 .overlay p {
   color: #000;
-  font-size: 15px;
+  font-size: 25px;
 }
 .card:hover .overlay {
   opacity: 1;
