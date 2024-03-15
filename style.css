@@ -447,19 +447,27 @@ video {
 
 
 @media (max-width: 600px) {
+ #cursor{
+   display: none;
+ }
+ #cursor-blur{
+   display: none;
+ }
   #nav {
     height: 80px;
     padding: 0 40px;
     gap: 15px;
   }
   #nav img {
-    height: 8vw;
+    height: 14vw;
+    padding-top: 2vw;
   }
   #nav h4 {
     font-size: 10px;
+    display: none;
   }
   #page1 h1 {
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 1000;
   }
   #page1 h1::before {
@@ -472,12 +480,12 @@ video {
     z-index: -1;
   }
   #page1 h2 {
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 400;
     margin-top: 8px;
   }
   #page1 p {
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 300;
     text-align: center;
     width: 70vw;
