@@ -5,11 +5,11 @@
   box-sizing: border-box;
   color: #fff;
 }
-html,
+/* html,
 body {
   height: 100%;
   width: 100%;
-}
+} */
 
 *::selection {
   background-color: #fff;
@@ -22,7 +22,6 @@ body::-webkit-scrollbar {
 }
 body::-webkit-scrollbar-thumb {
   background-color: #fff;
-
   border-radius: 50px;
 }
 body {
@@ -447,9 +446,6 @@ video {
 
 
 @media (max-width: 600px) {
-  body{
-    width: 100vw;
-  }
  #cursor{
    display: none;
  }
@@ -504,6 +500,5 @@ video {
   #page1 #arrow{
     height: 100px;
     width: 100px;
-    top:;
   }
   }
