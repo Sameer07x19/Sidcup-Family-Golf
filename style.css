@@ -126,8 +126,8 @@ video {
   border: 2px solid #95c11e;
   position: absolute;
   display: flex;
-  left: -2%;
-  bottom: 0%;
+  left: -1%;
+  bottom: 6%;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
@@ -459,35 +459,47 @@ video {
     gap: 15px;
   }
   #nav img {
-    height: 14vw;
-    padding-top: 5vw;
+    height: 22vw;
+    padding-top: 7vw;
   }
   #nav h4 {
     display: none;
   }
   #page1 h1 {
-    font-size: 40px;
+    font-size: 55px;
     font-weight: 1000;
+    text-align: center;
+    padding-top: 2vw;
   }
   #page1 h1::before {
     content: "EAT. DRINK. PLAY.";
     position: absolute;
     color: #000;
-    top: -4px;
-    left: -4px;
-    webkit-text-stroke: 10px #95c11e;
+    top: -5px;
+    left: -5px;
+    webkit-text-stroke: 10px #95c11e ;
     z-index: -1;
+    padding-top: 2vw;
   }
   #page1 h2 {
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 25px;
+    font-weight: 800;
     margin-top: 8px;
+    padding-top: 2.5vh;
+    text-align: center;
+    width: 80vw;
   }
   #page1 p {
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 300;
     text-align: center;
-    width: 70vw;
+    width: 85vw;
     margin-top: 10px;
+    padding-top: 2vh;
+  }
+  #page1 #arrow{
+    height: 100px;
+    width: 100px;
+    top:;
   }
   }
