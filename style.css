@@ -5,11 +5,11 @@
   box-sizing: border-box;
   color: #fff;
 }
-/* html,
+html,
 body {
   height: 100%;
   width: 100%;
-} */
+} 
 
 *::selection {
   background-color: #fff;
