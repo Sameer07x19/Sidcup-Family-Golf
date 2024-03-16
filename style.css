@@ -447,6 +447,9 @@ video {
 
 
 @media (max-width: 600px) {
+  body{
+    width: 100vw;
+  }
  #cursor{
    display: none;
  }
@@ -461,6 +464,7 @@ video {
   #nav img {
     height: 22vw;
     padding-top: 7vw;
+    left:5%;
   }
   #nav h4 {
     display: none;
