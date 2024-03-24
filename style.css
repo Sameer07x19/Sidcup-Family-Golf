@@ -9,7 +9,7 @@ html,
 body {
   height: 100%;
   width: 100%;
-} 
+}
 
 *::selection {
   background-color: #fff;
@@ -51,7 +51,7 @@ body {
 #nav {
   height: 130px;
   width: 100vw;
-  // background-color: red;
+  /* background-color: red; */
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -68,8 +68,9 @@ body {
   font-weight: 600;
 }
 
-#btn{
-  height: 6vh;
+#btn {
+  display: none;
+  /* height: 6vh;
   width: 35vw;
   color: #fff;
   font-size: 3.5vw;
@@ -78,7 +79,7 @@ body {
   border-radius: 50px;
   position: absolute;
   right: 7%;
-  margin-top: 20px;
+  margin-top: 20px; */
 }
 
 video {
@@ -349,7 +350,7 @@ video {
 #page4 {
   height: 50vh;
   width: 100%;
-//  background-color: red;
+  // background-color: red;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -460,12 +461,12 @@ video {
 
 
 @media (max-width: 600px) {
- #cursor{
-   display: none;
- }
- #cursor-blur{
-   display: none;
- }
+  #cursor {
+    display: none;
+  }
+  #cursor-blur {
+    display: none;
+  }
   #nav {
     height: 110px;
     padding: 0 40px;
@@ -474,7 +475,7 @@ video {
   #nav img {
     height: 22vw;
     padding-top: 6vw;
-    left:5%;
+    left: 5%;
   }
   #nav h4 {
     display: none;
@@ -491,7 +492,7 @@ video {
     color: #000;
     top: -5px;
     left: -5px;
-    webkit-text-stroke: 10px #95c11e ;
+    webkit-text-stroke: 10px #95c11e;
     z-index: -1;
     padding-top: 2vw;
   }
@@ -511,8 +512,21 @@ video {
     margin-top: 10px;
     padding-top: 2vh;
   }
-  #page1 #arrow{
+  #page1 #arrow {
     height: 100px;
     width: 100px;
   }
+  #btn {
+    display: block;
+    height: 6vh;
+    width: 35vw;
+    color: #fff;
+    font-size: 3.5vw;
+    background-color: #000;
+    border: 2px solid #95c11e;
+    border-radius: 50px;
+    position: absolute;
+    right: 7%;
+    margin-top: 20px;
   }
+}
