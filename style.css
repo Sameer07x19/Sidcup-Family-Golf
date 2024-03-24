@@ -68,6 +68,19 @@ body {
   font-weight: 600;
 }
 
+#btn{
+  height: 6vh;
+  width: 35vw;
+  color: #fff;
+  font-size: 3.5vw;
+  background-color: #000;
+  border: 2px solid #95c11e;
+  border-radius: 50px;
+  position: absolute;
+  right: 7%;
+  margin-top: 20px;
+}
+
 video {
   height: 100vh;
   width: 100vw;
@@ -454,13 +467,13 @@ video {
    display: none;
  }
   #nav {
-    height: 80px;
+    height: 110px;
     padding: 0 40px;
     gap: 15px;
   }
   #nav img {
     height: 22vw;
-    padding-top: 7vw;
+    padding-top: 6vw;
     left:5%;
   }
   #nav h4 {
