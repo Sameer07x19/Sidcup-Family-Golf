@@ -5,6 +5,7 @@
   box-sizing: border-box;
   color: #fff;
 }
+
 html,
 body {
   height: 100%;
@@ -15,15 +16,18 @@ body {
   background-color: #fff;
   color: #95c11e;
 }
+
 body::-webkit-scrollbar {
   display: block;
   width: 8px;
   background: #95c11e;
 }
+
 body::-webkit-scrollbar-thumb {
   background-color: #fff;
   border-radius: 50px;
 }
+
 body {
   overflow-x: hidden;
 }
@@ -37,6 +41,7 @@ body {
   z-index: 99;
   transition: all linear 0.1s;
 }
+
 #cursor-blur {
   height: 500px;
   width: 500px;
@@ -60,9 +65,11 @@ body {
   padding: 0 120px;
   z-index: 10;
 }
+
 #nav img {
   height: 4.5vw;
 }
+
 #nav h4 {
   text-transform: uppercase;
   font-weight: 600;
@@ -106,11 +113,13 @@ video {
   flex-direction: column;
   position: relative;
 }
+
 #page1 h1 {
-  font-size: 100px;
+  font-size: 6vw;
   font-weight: 900;
   position: relative;
 }
+
 #page1 h1::before {
   content: "EAT. DRINK. PLAY.";
   position: absolute;
@@ -120,11 +129,13 @@ video {
   webkit-text-stroke: 2px #95c11e;
   z-index: -1;
 }
+
 #page1 h2 {
   font-size: 30px;
   font-weight: 800;
-  margin-top: 10px;
+  margin-top: 2vh;
 }
+
 #page1 p {
   font-size: 22px;
   font-weight: 300;
@@ -147,10 +158,12 @@ video {
   border-radius: 50%;
   transition: all ease 0.5s;
 }
+
 #page1 #arrow i {
   font-size: 50px;
   font-weight: 100;
 }
+
 #page1 #arrow:hover {
   scale: 0.4;
   background-color: #95c11e;
@@ -170,9 +183,11 @@ video {
   overflow-y: hidden;
   z-index: 9;
 }
+
 #scroller::-webkit-scrollbar {
   display: none;
 }
+
 .scroller-in {
   display: inline-block;
   white-space: nowrap;
@@ -181,6 +196,7 @@ video {
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
+
 .scroller-in h4 {
   font-size: 120px;
   font-weight: 800;
@@ -191,14 +207,17 @@ video {
   color: #000;
   -webkit-text-stroke: 2px #ffffff;
 }
+
 #scroller h4:hover {
   color: #95c11e;
   -webkit-text-stroke: 2px #95c11e;
 }
+
 @keyframes scroll {
   from {
     transform: translateX(0);
   }
+
   to {
     transform: translateX(-100%);
   }
@@ -214,6 +233,7 @@ video {
   padding: 0 50px;
   gap: 30px;
 }
+
 #about-us img {
   height: 220px;
   width: 220px;
@@ -222,15 +242,18 @@ video {
   margin-top: 200px;
   border: 2px solid #95c11e;
 }
+
 #about-us-in {
   width: 50%;
   text-align: center;
 }
+
 #about-us-in h3 {
   font-size: 60px;
   font-weight: 800;
   margin-bottom: 30px;
 }
+
 #about-us-in p {
   font-size: 20px;
   font-weight: 400;
@@ -248,6 +271,7 @@ video {
   position: relative;
   z-index: 9;
 }
+
 .card {
   height: 80%;
   width: 24%;
@@ -259,6 +283,7 @@ video {
   position: relative;
   transition: all ease 0.6s;
 }
+
 .overlay {
   height: 100%;
   width: 100%;
@@ -268,6 +293,7 @@ video {
   opacity: 0;
   transition: all ease 0.6s;
 }
+
 .overlay h4 {
   color: #000;
   font-size: 23px;
@@ -276,22 +302,28 @@ video {
   margin-bottom: 20px;
   font-weight: 800;
 }
+
 .overlay p {
   color: #000;
   font-size: 25px;
 }
+
 .card:hover .overlay {
   opacity: 1;
 }
+
 .card:hover {
   transform: rotate3d(-1, 1, 0, 20deg);
 }
+
 #card1 {
   background-image: url(https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/home-toptracer-1024x682.jpg?strip=all&lossy=1&sharp=1&ssl=1);
 }
+
 #card2 {
   background-image: url(https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/hero-4-1024x1024.jpg?strip=all&lossy=1&sharp=1&ssl=1);
 }
+
 #card3 {
   background-image: url(https://eiwgew27fhz.exactdn.com/wp-content/uploads/2023/02/home-lessons-1024x682.jpg?strip=all&lossy=1&sharp=1&ssl=1);
 }
@@ -304,11 +336,13 @@ video {
   align-items: center;
   justify-content: space-between;
 }
+
 #green-div img {
   height: 100%;
   object-fit: cover;
   width: 14%;
 }
+
 #green-div h4 {
   width: 70%;
   line-height: 35px;
@@ -318,6 +352,7 @@ video {
   font-size: 27px;
   text-transform: uppercase;
 }
+
 #page3 {
   height: 80vh;
   width: 100%;
@@ -327,6 +362,7 @@ video {
   justify-content: center;
   position: relative;
 }
+
 #page3 p {
   font-size: 25px;
   font-weight: 700;
@@ -334,14 +370,17 @@ video {
   line-height: 45px;
   text-align: center;
 }
+
 #page3 img {
   position: absolute;
   height: 60px;
 }
+
 #colon1 {
   left: 15%;
   top: 25%;
 }
+
 #colon2 {
   right: 15%;
   bottom: 25%;
@@ -357,6 +396,7 @@ video {
   gap: 80px;
   position: relative;
 }
+
 .elem {
   height: 60%;
   width: 35%;
@@ -364,6 +404,7 @@ video {
   border-radius: 20px;
   position: relative;
 }
+
 .elem h2 {
   height: 100%;
   width: 100%;
@@ -378,6 +419,7 @@ video {
   position: absolute;
   z-index: 10;
 }
+
 .elem img {
   height: 100%;
   width: 100%;
@@ -385,13 +427,16 @@ video {
   transition: all ease 0.5s;
   scale: 1.1;
 }
+
 .elem:hover img {
   scale: 1;
 }
+
 .elem:hover h2 {
   color: #fff;
   background-color: transparent;
 }
+
 #page4 h1 {
   font-size: 6.4vw;
   position: absolute;
@@ -414,15 +459,18 @@ video {
   gap: 6vw;
   padding: 0 100px;
 }
-#footer > img {
+
+#footer>img {
   position: absolute;
   left: 0;
   height: 100%;
   z-index: 0;
 }
+
 #f1 img {
   height: 100px;
 }
+
 #f1,
 #f2,
 #f3,
@@ -432,6 +480,7 @@ video {
   z-index: 99;
   /* background-color: red; */
 }
+
 #f2 h3 {
   font-size: 2vw;
   white-space: nowrap;
@@ -449,6 +498,7 @@ video {
   font-weight: 800;
   margin-bottom: 8px;
 }
+
 #f4 h4 {
   font-size: 1.5vw;
   white-space: nowrap;
@@ -464,28 +514,34 @@ video {
   #cursor {
     display: none;
   }
+
   #cursor-blur {
     display: none;
   }
+
   #nav {
     height: 110px;
     padding: 0 40px;
     gap: 15px;
   }
+
   #nav img {
     height: 22vw;
     padding-top: 6vw;
     left: 5%;
   }
+
   #nav h4 {
     display: none;
   }
+
   #page1 h1 {
     font-size: 55px;
     font-weight: 1000;
     text-align: center;
     padding-top: 2vw;
   }
+
   #page1 h1::before {
     content: "EAT. DRINK. PLAY.";
     position: absolute;
@@ -496,6 +552,7 @@ video {
     z-index: -1;
     padding-top: 2vw;
   }
+
   #page1 h2 {
     font-size: 25px;
     font-weight: 800;
@@ -504,6 +561,7 @@ video {
     text-align: center;
     width: 80vw;
   }
+
   #page1 p {
     font-size: 18px;
     font-weight: 300;
@@ -512,10 +570,12 @@ video {
     margin-top: 10px;
     padding-top: 2vh;
   }
+
   #page1 #arrow {
     height: 100px;
     width: 100px;
   }
+
   #btn {
     display: block;
     height: 6vh;
