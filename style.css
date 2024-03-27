@@ -618,4 +618,19 @@ video {
     padding: 5vh;
     margin-bottom: 5vh;
   }
+  #green-div{
+    height: 40vh;
+  }
+  #green-div img {
+    
+  }
+  #green-div h4{
+    width: 90vw;
+    font-size: 4vw;
+    font-weight: 500;
+  }
+  #page3 p{
+    font-size: 2vw;
+    width: 90vw;
+  }
 }
