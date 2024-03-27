@@ -337,9 +337,9 @@ video {
 }
 
 #green-div img {
-  height: 100%;
-  object-fit: cover;
-  width: 14%;
+ /*  height: 100%;
+ object-fit: cover;
+ width: 14%; */
 }
 
 #green-div h4 {
@@ -619,18 +619,22 @@ video {
     margin-bottom: 5vh;
   }
   #green-div{
-    height: 40vh;
-  }
-  #green-div img {
-    
+    height: 30vh;
   }
   #green-div h4{
-    width: 90vw;
-    font-size: 4vw;
-    font-weight: 500;
+    width: 80vw;
+    font-size: 7vw;
+    font-weight: 600;
   }
   #page3 p{
-    font-size: 2vw;
-    width: 90vw;
+    font-size: 5vw;
+    width: 70vw;
+    line-height: 7vw;
+  }
+  #page3 img {
+    height: 8vw;
+  }
+  #colon1{
+    top:24%;
   }
 }
