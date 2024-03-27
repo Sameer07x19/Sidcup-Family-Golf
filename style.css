@@ -392,7 +392,7 @@ video {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 80px;
+  gap: 5vw;
   position: relative;
 }
 
@@ -439,7 +439,7 @@ video {
 #page4 h1 {
   font-size: 6.4vw;
   position: absolute;
-  top: -15%;
+  top: -2%;
   font-weight: 900;
   font-family: gilroy;
   color: #000;
@@ -467,7 +467,7 @@ video {
 }
 
 #f1 img {
-  height: 8vw;
+  height: 12vw;
 }
 
 #f1,
@@ -481,31 +481,31 @@ video {
 }
 
 #f2 h3 {
-  font-size: 2vw;
-  white-space: nowrap;
-  text-transform: uppercase;
-  color: #000;
-  font-weight: 900;
-  margin-bottom: 8px;
-}
-
-#f3 h3 {
-  font-size: 2vw;
+  font-size: 2.2vw;
   white-space: nowrap;
   text-transform: uppercase;
   color: #000;
   font-weight: 800;
-  margin-bottom: 8px;
+  margin-bottom: 2vw;
+}
+
+#f3 h3 {
+  font-size: 2.2vw;
+  white-space: nowrap;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 800;
+  margin-bottom: 2vw;
 }
 
 #f4 h4 {
-  font-size: 1.5vw;
+  font-size: 2vw;
   white-space: nowrap;
   text-transform: uppercase;
   color: #000;
   font-weight: 600;
-  line-height: 20px;
-  margin-bottom: 8px;
+  line-height: 3vw;
+  margin-bottom: 2vh;
 }
 
 
@@ -636,5 +636,9 @@ video {
   }
   #colon1{
     top:24%;
+  }
+  #page4 h1{
+    font-size: 8vw;
+    text-align: center;
   }
 }
