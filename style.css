@@ -22,13 +22,13 @@ body {
 
 body::-webkit-scrollbar {
   display: block;
-  width: 8px;
-  background: #95c11e;
+  width: 10px;
+  background: #fff;
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #fff;
-  border-radius: 50px;
+  background-color: #95c11e;
+  border-radius: 30px;
 }
 
 body {
@@ -57,7 +57,7 @@ body {
 }
 
 #nav {
-  height: 10vw;
+  height: 8vw;
   width: 100vw;
   /* background-color: red; */
   display: flex;
@@ -76,6 +76,8 @@ body {
 #nav h4 {
   text-transform: uppercase;
   font-weight: 600;
+  padding: 20px;
+  cursor: pointer;
 }
 
 #btn {
@@ -101,9 +103,8 @@ video {
 }
 
 #main {
-  background-color: rgba(0, 0, 0, 0.37);
+  background-color: rgba(0, 0, 0, 0.39);
   position: relative;
-  overflow: hidden;
 }
 
 #page1 {
@@ -117,36 +118,37 @@ video {
 }
 
 #page1 h1 {
-  font-size: 6vw;
+  font-size: 145px;
   font-weight: 900;
   position: relative;
+  margin-top: 50px;
 }
 
 #page1 h1::before {
   content: "EAT. DRINK. PLAY.";
   position: absolute;
   color: #000;
-  top: -4px;
-  left: -4px;
-  webkit-text-stroke: 2px #95c11e;
+  top: -5px;
+  left: -5px;
+  -webkit-text-stroke: 2px #95c11e;
   z-index: -1;
 }
 
 #page1 h2 {
   font-size: 30px;
   font-weight: 800;
-  margin-top: 2vh;
+  margin-top: 30px;
 }
 
 #page1 p {
   font-size: 22px;
-  font-weight: 300;
+  font-weight: 400;
   text-align: center;
-  width: 60vw;
+  width: 42vw;
   margin-top: 20px;
 }
 
-#page1 #arrow {
+/* #page1 #arrow {
   height: 250px;
   width: 250px;
   background-color: transparent;
@@ -167,9 +169,35 @@ video {
 }
 
 #page1 #arrow:hover {
+  background-color: #95c11e;
+  scale: 0.4;
+} */
+
+/* ------- */
+
+#page1 #arrow {
+  height: 250px;
+  width: 250px;
+  background-color: transparent;
+  border: 2px solid #95c11e;
+  position: absolute;
+  display: flex;
+  left: -2%;
+  bottom: 0%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all ease 0.5s;
+}
+#page1 #arrow i {
+  font-size: 50px;
+  font-weight: 100;
+}
+#page1 #arrow:hover {
   scale: 0.4;
   background-color: #95c11e;
 }
+/* -------- */
 
 #page2 {
   min-height: 100vh;
@@ -184,6 +212,7 @@ video {
   overflow-x: auto;
   overflow-y: hidden;
   z-index: 9;
+  margin-top: 110px;
 }
 
 #scroller::-webkit-scrollbar {
@@ -263,19 +292,18 @@ video {
 #card-container {
   height: 75vh;
   width: 100%;
-  //background-color: red;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 70px;
   position: relative;
   z-index: 9;
+  text-align: center;
 }
 
 .card {
   height: 80%;
   width: 24%;
-  // background-color: blue;
   border-radius: 20px;
   background-size: cover;
   background-position: center;
@@ -329,7 +357,7 @@ video {
 }
 
 #green-div {
-  height: 10vh;
+  height: 25vh;
   width: 100%;
   background: linear-gradient(to left bottom, #119f3a, #ace022);
   display: flex;
@@ -339,9 +367,9 @@ video {
 }
 
 #green-div img {
- /*  height: 100%;
+   height: 100%;
  object-fit: cover;
- width: 14%; */
+ width: 14%; 
 }
 
 #green-div h4 {
@@ -365,7 +393,7 @@ video {
 }
 
 #page3 p {
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 700;
   width: 60%;
   line-height: 45px;
@@ -390,7 +418,6 @@ video {
 #page4 {
   height: 50vh;
   width: 100%;
-  // background-color: red;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -439,7 +466,7 @@ video {
 }
 
 #page4 h1 {
-  font-size: 6.4vw;
+  font-size: 5.5vw;
   position: absolute;
   top: -2%;
   font-weight: 900;
@@ -457,7 +484,7 @@ video {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  gap: 6vw;
+  gap: 9vw;
   padding: 0 8vw;
 }
 
@@ -469,7 +496,8 @@ video {
 }
 
 #f1 img {
-  height: 12vw;
+  height: 7vw;
+  padding-bottom: 20px;
 }
 
 #f1,
@@ -479,35 +507,36 @@ video {
   width: fit-content;
   position: relative;
   z-index: 99;
+  margin-top: 20px;
   /* background-color: red; */
 }
 
 #f2 h3 {
-  font-size: 2.2vw;
+  font-size: 25px;
   white-space: nowrap;
   text-transform: uppercase;
   color: #000;
   font-weight: 800;
-  margin-bottom: 2vw;
+  margin-bottom: 20px;
 }
 
 #f3 h3 {
-  font-size: 2.2vw;
+  font-size: 25px;
   white-space: nowrap;
   text-transform: uppercase;
   color: #000;
   font-weight: 800;
-  margin-bottom: 2vw;
+  margin-bottom: 20px;
 }
 
 #f4 h4 {
-  font-size: 2vw;
+  font-size: 25px;
   white-space: nowrap;
   text-transform: uppercase;
   color: #000;
   font-weight: 600;
-  line-height: 3vw;
-  margin-bottom: 2vh;
+  line-height: 24px;
+  margin-bottom: 20px;
 }
 
 
@@ -549,7 +578,7 @@ video {
     color: #000;
     top: -5px;
     left: -5px;
-    webkit-text-stroke: 10px #95c11e;
+    -webkit-text-stroke: 10px #95c11e;
     z-index: -1;
     padding-top: 2vw;
   }
