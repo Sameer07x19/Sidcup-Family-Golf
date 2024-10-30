@@ -1,1 +1,1 @@
-# SidcupFamilyGolf-clone
+SidcupFamilyGolf - clone
